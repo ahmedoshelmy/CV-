@@ -1,0 +1,164 @@
+%-------------------------
+% Resume in Latex
+% Author : Ahmed Osama Helmy
+% Website: https://github.com/AhmedOsama198/
+% Linkedin: https://www.linkedin.com/in/ahmed-osama-helmy/
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{%
+    pdfborder = {0 0 0}
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/ahmed-osama-helmy/}{\Large Ahmed Osama Helmy}} & Email : \href{mailto:ahmed.osama1982002@gmail.com}{ahmed.osama1982002@gmail.com}\\
+  \href{https://github.com/AhmedOsama198/}{Github} & Mobile : +0201158715587 \\
+   \href{https://www.linkedin.com/in/ahmed-osama-helmy/}{Linkedin} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cairo University}{Cairo, Egypt}
+      {Bachelors in Computer Engineering;  GPA: 3.5}{Sep. 2020 -- Aug. 2025}
+    \resumeSubheading
+      {STEM Ismailia}{Ismailia, Egypt}
+      {High School }{Aug. 2017 -- July. 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bld.ai}{}
+      {Software Engineer Intern}{July 2021 - Oct 2022}
+      \resumeItemListStart
+        \resumeItem{Music Album}
+          {It's a backend application that includes REST APIs and Authentication using Django and SQLite}
+        \resumeItem{Udemy Clone}
+          {It's a clone for Udemy built using HTML, CSS , Javascript and React.js}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Edge Pro for Information System}{Cairo, Egypt}
+      { Software Engineer Intern}{Augusy 2022 - Sep 2022}
+      \resumeItemListStart
+        \resumeItem{Admin Panel}
+          {It has two types of users: admins and non-admins and it allows the admin to add user and user access. I developed it using React as a frontend and GraphQL, mySQL, Node.js}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Music Album(SQLite, Python, Django) 
+}
+      {    \\ 
+- I created a full database with two main Entities (Album, Artist) \\
+- I created REST APIs using class-based views   \\
+- I used Django Admin as UI for the APIs  
+}
+    \resumeSubItem{Shipping Company(C++)
+}
+      {\\-I implemented a search function for the search bar 
+\\-It consists of two pages : a single course page and home page
+}
+    \resumeSubItem{Udemy Clone(HTML, CSS, JavaScript, React) 
+}
+      { \\- I implemented a search function for the search bar 
+\\-It consists of two pages : a single course page and home page
+}
+    \resumeSubItem{Snakes and Ladder and Monopoly Game(C++)
+}
+      {\\-It’s a mix between Ladder and Monploly game where it gives the user access to creating his own game, putting the snakes and ladders and creating the rules  }
+          \resumeSubItem{AES Encryption (Verilog)}
+      {\\-I designed an encryption and decryption system using Verilog and then uploaded it to an FPGA 
+}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, JavaScript, C++, SQL}
+     \hfill
+     \textbf{Technologies}{: Node.js, Django, React}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
